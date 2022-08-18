@@ -1,3 +1,18 @@
+/*>->->->-> INDEX <-<-<-<-<*/
+.square{
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: #ffffff;
+}
+.center{
+  margin: auto;
+}
+
+/*>->->->-> BATMAN_CV <-<-<-<-<*/
 /*Body*/
 body {
   margin: 0px;
