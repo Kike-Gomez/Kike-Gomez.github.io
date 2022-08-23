@@ -1,112 +1,22 @@
-/*>->->->-> INDEX <-<-<-<-<*/
-.square{
-  height: auto;
-  width: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
-  color: #ffffff;
-}
-.center{
-  margin: auto;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/*>->->->-> BATMAN_CV <-<-<-<-<*/
-/*Body*/
 body {
   margin: 0px;
-  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(120, 129, 35);
+  font-family: 'Roboto', Arial, sans-serif;
 }
-
-.bStructure {
-  max-width: 1440px;
-  margin: auto;
-}
-
-.titleContainer {
-  background-color: #c4c4c4;
-  font-weight: 700;
-  padding-left: 12.45px;
-}
-
-/*Header*/
-.hContainer {
-  position: relative;
-  width: 1440px;
-  height: 188.19px;
-  left: 0px;
-  top: 0px;
-  background-color: #e6e6e6;
-}
-
-.imgContainer {
-  position: absolute;
-  width: 100px;
-  height: 146.37px;
-  left: 670px;
-  top: 20.91px;
-}
-.mainTitle {
-  height: 60px;
+.containerCenter {
   display: flex;
   justify-content: center;
-}
-h1.title {
-  margin: auto;
-  text-align: center;
-  font-size: 35px;
-  color: #005677;
-  letter-spacing: 0.3em;
+  width: 1000px;
 }
 
-/*Sections*/
-.spacing {
-  height: 128px;
-  background-color: #ffffff;
-}
-.subtitle {
-  height: 30px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.2em;
-}
-h3.subtitle {
-  font-size: 20px;
-  color: #005677;
-}
-ul {
-  font-size: 15px;
-}
-.noList {
-  list-style-type: none;
-  padding-left: 25px;
-}
-.bold {
-  font-weight: bold;
-}
-.italic {
-  font-style: italic;
-}
-.indent {
-  margin-left: 75px;
-}
-/*Footer Styles*/
-.footer {
-  margin-top: 147px;
-  height: 37px;
-  font-size: 20px;
-  font-weight: 700;
-  background-color: #005677;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.icons{
-padding-left: 20px;
-}
-a {
-  color: white;
+header{
+background-color: white;
+height: 200px;
+width: 100%;
+padding: 20px;
+justify-items: center;
+justify-self: center;
 }
 
