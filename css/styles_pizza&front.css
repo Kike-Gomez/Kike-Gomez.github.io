@@ -1,0 +1,41 @@
+/* General Structure */
+* {
+    box-sizing: border-box;
+}
+
+body {}
+
+.home {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+/* Header */
+.contHead {
+    height: 100px;
+    width: 1024px;
+    background-color: #222222;
+    display: flex;
+}
+
+.logo {
+    height: 80px;
+    width: 234px;
+    justify-items: center;
+}
+
+/* Main */
+.contMain {
+    display: flex;
+    height: 420px;
+    width: 1024px;
+}
+
+/* Footer */
+.contFoot {
+    display: flex;
+    height: 150px;
+    width: 1024px;
+    background-color: #222222;
+}

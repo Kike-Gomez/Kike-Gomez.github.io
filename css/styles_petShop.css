@@ -39,6 +39,11 @@
 body{
   margin: 0px;
 }
+.home {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
 .bContainer {
   max-width: 1024px;
   margin: auto;

@@ -1,12 +1,19 @@
 /*Body*/
-body{
+body {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
 .bodyStructure {
   max-width: 1440px;
   margin: auto;
   font-family: "Times New Roman", Times, serif;
+}
+
+.home {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
 }
 
 /*Header*/
@@ -30,9 +37,11 @@ body{
   left: 670px;
   top: 20.91px;
 }
+
 .mainTitle {
   height: 60px;
 }
+
 h1.title {
   margin: auto;
   text-align: center;
@@ -46,32 +55,40 @@ h1.title {
 .spacing {
   margin-top: 128px;
 }
+
 .subtitle {
   height: 30px;
   display: flex;
   align-items: center;
   letter-spacing: 0.2em;
 }
+
 h3.subtitle {
   font-size: 20px;
   color: #005677;
 }
+
 ul {
   font-size: 15px;
 }
+
 .noList {
   list-style-type: none;
   padding-left: 25px;
 }
+
 .bold {
   font-weight: bold;
 }
+
 .italic {
   font-style: italic;
 }
+
 .indent {
   margin-left: 75px;
 }
+
 /*Footer Styles*/
 .footer {
   margin-top: 147px;
@@ -84,9 +101,11 @@ ul {
   text-align: center;
   box-sizing: border-box;
 }
-.icons{
-padding-left: 20px;
+
+.icons {
+  padding-left: 20px;
 }
+
 a {
   color: white;
 }

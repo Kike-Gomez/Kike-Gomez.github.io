@@ -16,6 +16,12 @@ body {
     margin: auto;
 }
 
+.home {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
 /* Header */
 .upperblock {
     background-color: #1cd1b0;
