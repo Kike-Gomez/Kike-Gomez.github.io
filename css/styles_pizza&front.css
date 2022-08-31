@@ -3,7 +3,17 @@
     box-sizing: border-box;
 }
 
-body {}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
 .home {
     position: fixed;
@@ -12,30 +22,153 @@ body {}
 }
 
 /* Header */
-.contHead {
+.dadHeader {
     height: 100px;
     width: 1024px;
     background-color: #222222;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sonHeader {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.sonHeader h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.greenTxt {
+    color: #39B24A;
+}
+
+.redTxt {
+    color: #FC200C;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.sonBar {
     display: flex;
 }
 
-.logo {
-    height: 80px;
-    width: 234px;
-    justify-items: center;
+.list {
+    width: 384px;
+    font-size: 16px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 /* Main */
-.contMain {
-    display: flex;
+.dadMain {
     height: 420px;
     width: 1024px;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mainDelivery {
+    height: 350px;
+    width: 490px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/pizza/delivery.jpg");
+    border-radius: 5px;
+}
+
+.mainDelivery p {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0px 0px 20px;
+}
+
+.whiteTxt {
+    color: #FFFFFF;
+}
+
+.mainRanking {
+    height: 350px;
+    width: 490px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainRanking p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+.rankSplit {
+    width: 100%;
+    display: flex;
+    margin-top: 21px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rankList {
+    color: #000000;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.rankList p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 23px;
+}
+
+.rankList ol {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /* Footer */
-.contFoot {
+.dadFoot {
     display: flex;
     height: 150px;
     width: 1024px;
     background-color: #222222;
+    justify-content: space-between;
+}
+
+.footList {
+    font-size: 16px;
+    padding-left: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sonFooter {
+    display: flex;
+    align-items: center;
+    margin-right: 42px;
+}
+
+.sonFooter h1 {
+    color: #FFFFFF;
+    font-size: 20px;
 }

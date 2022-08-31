@@ -1,0 +1,32 @@
+/* General Structure */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../img/kikeCV/codingBack.jpg");
+    background-size: cover;
+}
+
+.back {
+    background-color: rgba(77, 228, 207,0.3);
+    width: 70%;
+    color: azure;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.home {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

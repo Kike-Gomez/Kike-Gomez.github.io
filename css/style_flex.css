@@ -1,0 +1,25 @@
+.padre {
+    width: 70%;
+    height: 1024px;
+    background-color: orange;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hijo1 {
+    height: 150px;
+    background-color: red;
+    align-self: center;
+}
+
+.hijo2 {
+    background-color: aqua;
+    align-self: stretch;
+}
+
+.hijo3 {
+    height: 99px;
+    background-color: bisque;
+    align-self: center;
+    font-weight: ;
