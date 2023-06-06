@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urudata</title>
+    <style>
+        :root {
+            --dark: rgb(62, 62, 62);
+            --clear: whitesmoke;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+            vertical-align: baseline;
+
+        }
+
+        body {
+            background-color: black;
+            font-family: 'Roboto', sans-serif;
+            color: var(--clear);
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 90vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+
+        .videos {
+            width: 90vw;
+            margin-top: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-self: center;
+            justify-content: space-between;
+            align-content: space-around;
+        }
+
+        .vidChild {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 48%;
+            height: 20rem;
+        }
+
+        .header {
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            padding: 1rem;
+            color: aliceblue;
+            font-size: x-large;
+            background-color: rgb(62, 62, 62);
+            width: 100%;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        span {
+            margin-top: 1rem;
+        }
+
+        iframe:hover {
+            border-bottom: blueviolet 3px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Capacitaciones Urudata</p>
+        </div>
+        <div class="videos">
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/Mi_G0FfMjvY" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Capacitación Gestor MAE RAN de Huawei</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/g6yuYVbrKtk" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Monitoreando la Red Metro (MPLS) via Nokia NFM-P y la Red IP via SNMPc y Cisco Prime</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/8izCXAdF-WM" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Como abrir todos los gestores en el panel de monitoreo</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/0dSAcb8ufiQ" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Como Reconocer y Cerrar múltiples alarmas en Zabbix</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/3XssHOS2r1U" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Conceptos básicos de Red de Acceso (Parte 1)</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/J6i4zvWno_o" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Conceptos básicos de Red de Acceso (Parte 2)</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/VCqaY10g0Ck" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Capacitación en Transmisión</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/gMXU1hR1BtM" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Capacitación Gestor ENM Ericsson</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/GJvEvWl6IrQ" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Inducción a Supervisión de Red - Dia 1: Presentación General</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/0wojVnqqN1A" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Inducción a Supervisión de Red - Dia 2: Conceptos Técnicos</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/rO3B69vM3b4" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Inducción a Supervisión de Red - Dia 3: Operativa General</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/KB26Ipk4Q9s" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Inducción a Supervisión de Red - Dia 4: Operativa General</span>
+            </div>
+            <div class="vidChild">
+                <iframe src="https://www.youtube.com/embed/sKywccdlDl4" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <span>Inducción a Supervisión de Red - Dia 5: Operativa General</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
